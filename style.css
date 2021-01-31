@@ -1,0 +1,78 @@
+body
+{
+    background-image: url("background-image.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page
+{
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 1vw 1vw 3vw 1vw rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 55vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.rule
+{
+    background-color: black;
+    width: 53vw;
+}
+
+.resume-section-title
+{
+    margin: 0px;
+    padding-left: 1vw;
+    height: 2vw;
+}
+
+.resume-table
+{
+    width: 55vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.resume-row
+{
+    width: 50vw;
+}
+
+.resume-item-title
+{
+    text-align: left;
+}
+
+.resume-item-content
+{
+    text-align: left;
+}
+
+.resume-item-date
+{
+    text-align: right;
+}
+
+.resume-item-points
+{
+    margin-top: 3px;
+    margin-bottom: 1.5vw;
+}
+
+.address
+{
+    text-align: left;
+}
+
+.contact-info
+{
+    text-align: center;
+}
