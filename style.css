@@ -21,10 +21,17 @@ body
     padding-bottom: 5vw;
 }
 
+p
+{
+    margin: 0;
+}
+
 .rule
 {
     background-color: black;
     width: 53vw;
+    margin-left:1vw;
+    margin-right:1vw;
 }
 
 .resume-section-title
@@ -36,29 +43,91 @@ body
 
 .resume-table
 {
-    width: 55vw;
+    display: grid;
+    grid-template-columns: 11vw 32vw 11vw;
+    width: 54vw;
     padding-left: 1vw;
     padding-right: 1vw;
 }
 
+#education-table
+{
+    grid-template-columns: 12vw 31vw 11vw
+}
+
+#experience-table
+{
+    grid-template-columns: 19vw 24vw 8vw;
+}
+
+#leadership-table
+{
+    grid-template-columns: 10vw 37.5vw 9vw;
+}
+
+#skills-table
+{
+    grid-template-columns: 10vw 40vw;
+}
+
 .resume-row
 {
-    width: 50vw;
+    width: 53vw;
 }
 
-.resume-item-title
+.resume-header-column-right
 {
-    text-align: left;
+    width: 13vw;
 }
 
-.resume-item-content
+.resume-header-column-left
 {
-    text-align: left;
+    width: 13vw;
 }
 
-.resume-item-date
+.resume-header-column-center
 {
-    text-align: right;
+    width: 32vw;
+}
+
+.resume-education-column-right
+{
+    width: 13vw;
+}
+
+.resume-education-column-left
+{
+    width: 13vw;
+}
+
+.resume-education-column-center
+{
+    width: 30vw;
+}
+
+.resume-experience-column-right
+{
+    width: 10vw;
+}
+
+.resume-experience-column-left
+{
+    width: 18vw;
+}
+
+.resume-experience-column-center
+{
+    width: 24vw;
+}
+
+.resume-skills-column-left
+{
+    width: 10vw;
+}
+
+.resume-skills-column-right
+{
+    width: 40vw;
 }
 
 .resume-item-points
